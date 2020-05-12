@@ -80,12 +80,12 @@ WSGI_APPLICATION = 'crawler_server.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
 
 
 # Password validation
@@ -126,16 +126,16 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE':'sql_server.pyodbc',
-#         'NAME':'homnaydocgi dev',
-#         'HOST':'homnaydocgi.database.windows.net',
-#         'USER':'taibn1',
-#         'PASSWORD':'LTD1996@',
+DATABASES = {
+    'default': {
+        'ENGINE': 'sql_server.pyodbc',
+        'NAME': 'homnaydocgi dev',
+        'HOST': 'homnaydocgi.database.windows.net',
+        'USER': 'taibn1',
+        'PASSWORD': 'LTD1996@',
 
-#         'OPTIONS':{
-#             'driver':'SQL Server Native Client 11.0',
-#         }
-#     }
-# }
+        'OPTIONS': {
+            'driver': 'SQL Server Native Client 11.0',
+        }
+    }
+}
