@@ -26,7 +26,7 @@ class ToolPipeline(object):
         print("--------process_item------------, item=", item)
         print("--------process_item------------, spider=", spider)
 
-        # self.items.append(item['url'])
-        self.items.append(item['Comment'])
+        self.items.append(item['content'])
+        # self.items.append(item['Comment'])
 
         return item

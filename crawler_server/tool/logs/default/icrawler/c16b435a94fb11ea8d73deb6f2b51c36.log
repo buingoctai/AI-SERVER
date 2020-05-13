@@ -1,0 +1,324 @@
+2020-05-13 16:26:03 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: tool)
+2020-05-13 16:26:03 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.5.2, w3lib 1.20.0, Twisted 20.3.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.17763-SP0
+2020-05-13 16:26:03 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'tool', 'LOG_FILE': 'logs\\default\\icrawler\\c16b435a94fb11ea8d73deb6f2b51c36.log', 'NEWSPIDER_MODULE': 'tool.spiders', 'SPIDER_MODULES': ['tool.spiders'], 'USER_AGENT': 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'}
+2020-05-13 16:26:03 [scrapy.extensions.telnet] INFO: Telnet Password: ab31437910a90102
+2020-05-13 16:26:03 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2020-05-13 16:26:04 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-05-13 16:26:04 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-05-13 16:26:04 [scrapy.middleware] INFO: Enabled item pipelines:
+['tool.pipelines.ToolPipeline']
+2020-05-13 16:26:04 [scrapy.core.engine] INFO: Spider opened
+2020-05-13 16:26:04 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-13 16:26:04 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-05-13 16:26:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://cafebiz.vn/ceo-dong-a-solutions-tran-bang-viet-wefit-with-fee-chung-toi-on-neu-co-tien-20200513104543872.chn> (referer: None)
+2020-05-13 16:26:04 [scrapy.core.scraper] ERROR: Error processing {'content': ['Liên hệ quảng cáo',
+             '0942.86.11.33 - doanhnghiep@admicro.vn',
+             'Liên hệ ban biên tập',
+             '024.7309.5555 máy lẻ 41294 - info@cafebiz.vn',
+             'Tin mới',
+             ' nhắm đến việc giúp những người thường di chuyển tìm kiếm các '
+             'phòng tập chăm sóc thể hình để luyện tập một cách thuận lợi và '
+             'với chi phí hiệu quả hơn. Thay vì đóng phí hàng tháng (hay hàng '
+             'năm) cho phòng tập đã đăng ký và "chết cứng" ở đấy, bạn chỉ cần '
+             'đăng ký với WeFit là có thể tập bất cứ lúc nào, bất cứ môn nào, '
+             'tại bất cứ trung tâm nào tiện nhất cho mình chỉ với mức phí như '
+             'đóng cho một trung tâm. Nghĩa là Wefit bán cho bạn sự thuận tiện '
+             '(convenience) và linh hoạt (flexibility) trong luyện tập.  ',
+             'Với các phòng tập, có thêm một khách hàng sẽ giúp họ bù đắp được '
+             'phần nào cho chi phí mặt bằng và cơ sở vật chất đã trang bị rất '
+             'tốn kém. Và biết đâu, nếu hài lòng với lần tập ấy, người tập trở '
+             'thành khách hàng thường xuyên của phòng tập thì lại sẽ càng '
+             'tuyệt vời hơn nữa nhỉ.  ',
+             'Sản phẩm nhắm đến giới trung lưu trẻ trung năng động. Đây là một '
+             'điểm sáng đáng kể vì nhóm này có tiền, dễ tiêu xài, dễ lan '
+             'truyền, và thích ứng với công nghệ. Quy mô của nhóm này cũng khá '
+             'lớn, tập trung ở các công sở văn phòng tại khu vực trung tâm của '
+             'hai thành phố lớn, có thói quen tiếp nhận thông tin tương đối '
+             'giống nhau... nên dễ nhận biết, dễ tiếp cận, dễ truyền thông, dễ '
+             'thuyết phục và dễ bán hàng.  ',
+             'Sản phẩm cũng rất hợp xu hướng khi mà đa phần giới này khá quan '
+             'tâm đến sức khoẻ và hình thể ở những mức độ khác nhau. Và càng '
+             'ngày mức độ quan tâm này sẽ càng tăng lên (già hơn, yếu hơn, xấu '
+             'hơn...).  ',
+             'Về tài chính, cơ bản họ mua sỉ và bán lẻ nên sẽ có một khoản '
+             'chênh lệch được kỳ vọng lớn hơn chi phí hoạt động để cho ra một '
+             'lợi nhuận tương đối. Đây chính là nguyên lý hoạt động của kinh '
+             'tế chia sẻ vốn đang "nở hoa" trong giới khởi nghiệp công nghệ '
+             'với những Uber, Grab, Airbnb, … khắp nơi trên thế giới.  ',
+             'Về lâu dài, sẽ dần hình thành một hệ sinh thái mà ở đó WeFit sẽ '
+             'đóng vai trò trung tâm. Người mua sẽ dần chỉ biết đến ứng dụng '
+             'mà sẽ không còn nhớ, không còn biết đến nhà cung cấp là các '
+             'phòng tập nữa. Và khi đó, để có được khách hàng, các nhà cung '
+             'cấp sẽ phải trực tiếp hay gián tiếp trả (thêm) tiền cho "chủ" '
+             'của hệ sinh thái đó. Bình thường thôi, như cách mà Google, '
+             'Alibaba, Amazon, Facebook, Agoda, các hệ thống siêu thị… đang '
+             'làm thôi mà.  ',
+             'Với hiểu biết về thói quen, hành vi, sở thích của người tập, ứng '
+             'dụng có thể khéo léo quảng bá hoặc bán thêm những sản phẩm và '
+             'dịch vụ khác liên quan đến làm đẹp, sức khoẻ mà không quá tạo ra '
+             'sự phản cảm cho người tập. Thậm chí, họ có thể lựa chọn đầu tư '
+             'vào những phòng tập mà họ cho rằng sẽ có nhiều khách tập trong '
+             'tương lai dựa trên dữ liệu lớn (Big Data) ấy. Và sau đó điều '
+             'hướng khách hàng về đấy. ',
+             'Còn nếu phòng tập được chọn không đồng ý nhận đầu tư ư? Dễ lắm, '
+             'ứng dụng có thể điều hướng khách hàng ra khỏi đấy. Bạn nào đã '
+             'từng đang kinh doanh nhà hàng rất đắt khách, tự dưng một ngày '
+             'thấy con đường trước cửa hàng tự dưng thành một chiều, hoặc có '
+             'một con lươn dài cả mấy trăm thước thì chắc sẽ rất dễ thấm điều '
+             'này. Hay bạn nào đang bán sản phẩm thông qua kênh siêu thị (MT) '
+             'và đến một ngày được siêu thị ưu ái đặt để sản xuất "nhãn hàng '
+             'riêng" thì sẽ ngậm ngùi tương tự...  ',
+             'Chà, mấy suy đoán này thì có vẻ "tà đạo" quá và có lẽ không là '
+             'những gì mà họ nhắm đến. Tôi chỉ phân tích để mọi người thấy '
+             'được viễn cảnh kinh doanh khả dĩ nếu sản phẩm có thể thành công '
+             'mà thôi.  ',
+             'Tôi không biết rõ nội tình của họ vì không có điều kiện tiếp xúc '
+             'sâu. Nhưng qua quan sát sơ bộ bên ngoài cùng một số thông tin cơ '
+             'bản kết hợp với một số hiểu biết hạn chế của cá nhân thì có một '
+             'số lý do đã làm cho họ gặp khó khăn:  ',
+             'Khi xây hệ sinh thái thì khách hàng chỉ tham gia khi có những '
+             'nhà cung cấp "mà mình muốn". Nhưng nhà cung cấp sẽ chỉ gia nhập '
+             'khi có đủ lượng khách hàng "mà mình cần".  ',
+             'Do vậy, để có thể thành công được, bên cạnh việc cần tạo ra giá '
+             'trị cho các bên tham gia, bạn còn phải thực hiện được ít nhất '
+             'một trong những cách sau để có "cú hích ban đầu" đủ lớn:  ',
+             '(a) Đổ thật nhiều tiền để "lừa" khách hàng và nhà cung cấp vào '
+             'hệ sinh thái, và duy trì việc đó mãi đến khi họ đã đủ phụ/lệ '
+             'thuộc vào mình thì mới "lấy lại vốn" hoặc "đạt được mục đích". '
+             'Hãy nhớ đến việc các sàn thương mại điện tử dễ thương đến thế '
+             'nào với cả người bán (miễn chiết khấu giao dịch, giao hàng/thu '
+             'tiền miễn phí, không xác minh/đánh giá người bán) lẫn người mua '
+             '(khuyến mãi, tặng quà, trúng thưởng…) khi mới bắt đầu. Danh sách '
+             'ở đây gồm Taobao, Amazon, Tiki, Shopee, Adayroi, Lazada, '
+             'Facebook... Hãy nhớ đến tỷ lệ chia hấp dẫn cho lái xe, xe đẹp xe '
+             'xịn không tăng giá, chuyến đi miễn phí, … khi Uber hay Grab mới '
+             'vào Việt Nam. Ai cũng có lợi hết, tại sao không vào?  ',
+             '(b) "Hack" để có được lượng khách hàng ban đầu dựa trên một sự '
+             'thừa hưởng nội bộ hay vay mượn bên ngoài. Có ai nhớ Zalo thời kỳ '
+             'đầu mới thành lập đã dựa trên cơ sở dữ liệu người chơi game của '
+             'VNG? Có ai nhớ Viettel thời gian đầu đã có lượng khách hàng đầu '
+             'tiên từ quân nhân và cựu chiến binh? Rồi những thành viên của '
+             'VinID đến từ những dịch vụ hiện hữu và liên kết. Miễn phí thường '
+             'niên trong năm đầu cho khách hàng sử dụng thẻ tín dụng...  ',
+             '(c) "Lấy lòng" được truyền thông và những quyền lực vô hình '
+             'khác. Những quyền lực này sẽ tạo ra xu hướng để dẫn dắt hay ép '
+             'buộc khách hàng và đôi khi là cả nhà cung cấp phải gia nhập hệ '
+             'sinh thái của mình. Cái này các bạn tự tìm ví dụ vì tôi không '
+             'tiện để nhắc đến một cách cụ thể hơn.  ',
+             'Trong câu chuyện này, WeFit đã không có làm được cách nào trong '
+             'cả 3 cách trên. Có một chút le lói ở cách (b) và (c) nhưng là '
+             'không đủ để soi sáng tương lai.  ',
+             'Từ xưa đến nay, cả Đông lẫn Tây, trong kinh doanh, trong chính '
+             'trị và cả trong cuộc sống, ta thường được nhắn nhủ về quy luật '
+             '"cùng thắng lợi" (win-win hay win-win-win) với lời dặn dò: tất '
+             'cả các bên liên quan phải cùng có lợi thì mới bền vững lâu dài. '
+             'Để làm được điều này, phải có được cả hai thứ sau:  ',
+             '(a) Lợi ích (được tạo ra cùng với nhau hay chiếm đoạt từ bên '
+             'ngoài) phải đủ lớn để khi chia cho nhau thì vẫn đủ làm cho nhau '
+             'cùng "thoả mãn".  ',
+             '(b) Các lợi ích này là phải cùng chiều với nhau: không được tồn '
+             'tại khả năng mà một ai đó (kể cả mình) sẽ Tệ đi khi ai đó Tốt '
+             'hơn.  ',
+             'Trong câu chuyện này, vế (a) tạm ổn nhưng vế (b) thì WeFit đã '
+             'làm rất tệ khi cho phép khách hàng được tập Không giới hạn '
+             '(Unlimited) trong khi bản thân mình lại phải trả Theo lượt. Càng '
+             'tập nhiều thì Khách hàng và Phòng tập càng có lợi thêm, trong '
+             'khi mình lại càng lỗ hơn. Lấy tiền đâu để bù vào đấy? Và thậm '
+             'chí tệ hơn, nếu Khách hàng và Phòng tập bắt tay với nhau để '
+             '"rỉa" lợi ích từ mình thì sao?  ',
+             'Dĩ nhiên, tôi hiểu rằng việc cho phép Unlimited chỉ là một sự '
+             'biến báo của WeFit trong một giai đoạn nhằm "hack" đủ lượng '
+             'khách hàng thường xuyên. Nhưng chi phí của cách hack này là quá '
+             'cao, thời gian lại quá dài, không có theo dõi đánh giá tác '
+             'động/hiệu quả. Và nguy hiểm hơn là nó làm "hỏng" phân khúc khách '
+             'hàng mục tiêu của Wefit.  ',
+             'Khách hàng mục tiêu là những khách hàng mà (i) "rưng rưng xúc '
+             'động" với những gì mà mình cung cấp, (ii) vì vậy sẵn lòng trả '
+             'tiền cho mình để "đền đáp" lại, (iii) số tiền đó là đủ lớn để '
+             'mình "cùng có lợi", (iv) chi phí và độ khó để mình tìm và bán '
+             'hàng (thuyết phục, giao hàng, thu tiền) cho họ là tương đối '
+             'thấp, (v) đủ nhiều để tổng lợi ích không là quá bé.  ',
+             'Giá trị chào bán của dịch vụ mà bạn founder đã phát biểu rõ ràng '
+             'là "sự tiện lợi và linh hoạt" cho người tập. Thế nhưng ai là '
+             'người rưng xúc động với hai giá trị chào bán ấy và sẵn lòng trả '
+             '(nhiều) tiền cho chúng?  ',
+             ': cần khoảng hai phòng tập (gần nơi làm để tranh thủ giờ rảnh, '
+             'và gần nhà để tập cuối tuần/lúc rảnh). Nhóm này rất đông, nhưng '
+             'cái họ cần thì chỉ là thông tin. Và họ chỉ cần vài lần trong đời '
+             '(khi chuyển chỗ ở hoặc chỗ làm). Và họ có thể tìm thấy thông tin '
+             'ấy theo nhiều cách khác nhau. Vậy thì họ có thèm trả đồng nào '
+             'cho thông tin đó hay không? Còn những phòng tập, họ có được thêm '
+             'giá trị gì nhiều khi mình đưa người tập xưa nay ở chỗ họ cho '
+             'chính họ hay không? Như vậy, nhóm này không nên là khách hàng '
+             'mục tiêu.  ',
+             ': cần nhiều phòng tập, và thường xuyên cần thông tin từ hệ thống '
+             '(cho mỗi chuyến công tác, hoặc cho mỗi lúc đổi khách sạn). Họ '
+             'sẵn lòng trả tiền cho mình (họ nhiều tiền mà). Nhưng số lượng '
+             'của họ có đủ lớn hay chưa? Và chi phí để tiếp cận họ cùng những '
+             'phòng tập mà họ muốn có cao quá không? Tuỳ theo câu trả lời mà '
+             'họ có phải là khách hàng mục tiêu hay không.  ',
+             ': chắc chắn không là khách hàng rồi, vì khách sạn họ ở thường sẽ '
+             'có sẵn phòng gym hay hồ bơi.  ',
+             'Thế nhưng, trong thực thi thì WeFit lại nghiêng hết về nhóm (a). '
+             'Mà nhóm này lại không "ghi nhận" lắm giá trị mà hệ thống cung '
+             'cấp. Do vậy, Wefit đã phải ứng biến bằng cách khuyến mãi thêm '
+             'một giá trị mới là Affordable (rẻ) thông qua việc cho phép tập '
+             'Không giới hạn. Lúc này. những khách hàng không chỉ "không - mục '
+             'tiêu" mà còn là "phản - mục tiêu" đã lẫn vào và làm hỏng hoàn '
+             'toàn hệ sinh thái của Wefit. Sự sửa sai sau này của Wefit cũng '
+             'bị chính nhóm này phản đối quyết liệt nhất và gán cho họ những '
+             'cái mác rất nặng nề và oan uổng như "lừa đảo" hay "không có đạo '
+             'đức kinh doanh".  ',
+             'Để khách hàng không phải là mục tiêu lẫn vào là khổ như thế đấy. '
+             'Chất lượng luôn quan trọng hơn số lượng.  ',
+             'Chính vì để lẫn khách hàng dưới chuẩn vào hệ sinh thái nên cùng '
+             'với sự hạn chế của công nghệ (hoặc thời gian để bổ sung tính '
+             'năng tính năng công nghệ) mà đơn vị đã gặp hoàn cảnh oái oăm khi '
+             'có trường hợp một tài khoản đăng ký (và trả tiền) được chia sẻ '
+             'cho 100 người cùng tập. Điều này làm cho chi phí phải trả cho '
+             'các phòng tập tăng lên rất nhiều lần, trong khi doanh thu là vẫn '
+             'như cũ (hoặc thấp hơn).  ',
+             'Dòng tiền gặp vấn đề vì chỗ mấu chốt này. Càng bán sẽ càng lỗ '
+             'thì bán để làm gì?  ',
+             'Cũng không phải là không có những đơn vị sử dụng những cách '
+             'tương tự để hack được lượng khách hàng ban đầu rồi sau đó mới '
+             'dần loại bớt khách hàng kém chất lượng ra. Nếu ai để ý thì '
+             'Spotify, Netflix hay Zing MP3 cũng đã từng khôn ngoan lợi dụng '
+             'cách thức này.  ',
+             'Thế nhưng, khác biệt ở chỗ là các đơn vị ấy đã tuyên bố ngay từ '
+             'đầu rằng thuê bao giá bao nhiêu, được sử dụng trên bao nhiêu '
+             'máy/người hay được dùng thử trong thời gian bao lâu. Và việc '
+             'không kiểm tra những điều kiện ấy chẳng qua là vì họ "quên" mà '
+             'thôi. Bất cứ khi nào họ cũng có thể siết lại mà khách hàng không '
+             'thể nào phản đối được.  ',
+             'Và quan trọng là sản phẩm dịch vụ mà các đơn vị ấy cung cấp là '
+             'vô hình. Nghĩa là chi phí cho một người dùng tăng thêm là không '
+             'đáng kể.  ',
+             'Người dùng thì thấy "lỗ hổng" ấy, cho rằng mình "có lợi" nên '
+             'truyền tai nhau, vừa góp phần "thử nghiệm sản phẩm", vừa "phát '
+             'triển thị trường" giúp họ. Còn họ thì luôn đong đo các chỉ số, '
+             'theo dõi từng khách hàng và ra những quyết định điều hành dựa '
+             'trên hiểu biết về "big data" và sự hỗ trợ của AI. Cho từng tính '
+             'năng, dịch vụ, khu vực, nhà cung cấp và người dùng. Theo hướng '
+             'có lợi nhất cho họ.  ',
+             'Một yếu tố khác trong phần này là khả năng thâm nhập/tích hợp '
+             'vào hệ thống của các phòng tập. Hệ thống có biết được phòng tập '
+             'nào đó hiện còn bao nhiêu chỗ trống, của "món" gì, bao nhiêu '
+             'khách, khách nào là của mình, họ tập gì, trong bao lâu... hay '
+             'không? Bạn thử nghĩ những ứng dụng bán vé máy bay, đặt vé tàu '
+             'xe, đặt xe taxi, đặt phòng khách sạn hay bác sĩ… mà không biết '
+             'được tình trạng thực tế thì sẽ ra sao? Vừa sẽ làm khách hàng bực '
+             'mình, vừa sẽ không điều hành hiệu quả.',
+             'Có người cho rằng WeFit chết là vì dịch ',
+             '. Điều này là không đúng. WeFit đã hấp hối từ rất lâu vì ung thư '
+             'giai đoạn cuối rồi. Đại dịch vừa rồi chỉ là sự cố vô tình rút '
+             'nhầm phích điện máy thở của cô dọn phòng mà thôi. Không có '
+             'Covid-19, WeFit sẽ chết đau đớn hơn. Và sẽ tốn kém hơn cho những '
+             'người liên quan.  ',
+             'Tuy vậy, điều ấy không phủ nhận được rằng ý tưởng khởi nghiệp '
+             'này là một ý tưởng sáng. Và bản thân ứng dụng cũng khá ổn.',
+             'Éo le là khởi nghiệp không chỉ cần ý tưởng, và cũng không chỉ '
+             'cần ứng dụng.  ',
+             'Có lẽ là các bạn khởi nghiệp cũng biết điều ấy, nhưng không xoay '
+             'xở được vì những hạn chế của mình: thiếu đối tác đủ tầm để phản '
+             'biện và dẫn dắt, thiếu người quản lý vận hành giỏi và thiếu khả '
+             'năng gọi vốn/quản lý tài chính đủ tốt.  ',
+             'Thương các bạn ấy, cái khó bó cái khôn nên thua oan tức tưởi.  ',
+             '\r\n                                        ',
+             '\r\n                                    ',
+             '\r\n'
+             '                                            Theo Trí Thức Trẻ\r\n'
+             '\r\n'
+             '                                        ',
+             '\r\n'
+             '                            “Ý tưởng khởi nghiệp của WeFit là '
+             'một ý tưởng sáng. Bản thân ứng dụng cũng khá ổn. Éo le là khởi '
+             'nghiệp không chỉ cần ý tưởng, và cũng không chỉ cần ứng dụng. Có '
+             'lẽ là các bạn khởi nghiệp cũng biết điều ấy, nhưng không xoay xở '
+             'được vì những hạn chế của mình. Thương các bạn ấy, cái khó bó '
+             'cái khôn nên thua oan tức tưởi”, ông Trần Bằng Việt – CEO Dong A '
+             'Solutions – nhận định.\r\n'
+             '                        ',
+             '\r\n'
+             '                                    Theo thông báo mới nhất từ '
+             'California Fitness và Yoga (CFY), họ sẽ hỗ trợ chuyển đổi miễn '
+             'phí gói hội viên Wefit thành gói hội viên của CFY. Gói chuyển '
+             'đổi này sẽ có thời hạn 3 tháng.\r\n'
+             '                                ',
+             '\r\n'
+             '                                    Ngoài được cho phép làm việc '
+             'ở nhà mãi mãi dù dịch Covid-19 có chấm dứt, nhân viên Twitter '
+             'còn được hỗ trợ 1.000 USD.\r\n'
+             '                                ',
+             '\r\n'
+             '                                    “Nhiều khi bọn mình nhìn '
+             'những youtuber kiếm được nhiều tiền thì cũng nghĩ: “Ồ, sao mấy '
+             'ông này giỏi thế, mấy ông này sướng thế, giá mà mình cũng kiếm '
+             'được nhiều tiền như thế nhỉ?”\r\n'
+             '                                ',
+             '2020-05-12T19:54:00',
+             '2020-05-12T10:19:00',
+             '2020-05-11T18:02:00',
+             'Ban biên tập CafeBiz',
+             'Địa chỉ: Tầng 21, tòa nhà Center Building. Số 1 Nguyễn Huy '
+             'Tưởng, Thanh Xuân, Hà Nội.',
+             'Điện thoại: 024 7309 5555 - Máy lẻ 41294 | Fax: 024-39743413',
+             'Email: info@vccorp.vn',
+             'Ghi rõ nguồn "CafeBiz" khi phát hành lại thông tin',
+             'Chịu trách nhiệm nội dung: Phó Tổng Giám đốc Nguyễn Bích Minh',
+             'Liên hệ quảng cáo',
+             'Hotline: 0942.86.11.33',
+             'Email: ',
+             '© Copyright 2012 - 2020 - Công ty Cổ phần VCCorp.',
+             '\r\n'
+             '                Giấy phép thiết lập trang thông tin điện tử tổng '
+             'hợp trên internet số 3321/GP-TTĐT do Sở Thông tin và Truyền '
+             'thông TP Hà Nội cấp ngày 03 tháng 07 năm 2019.\r\n'
+             '            ']}
+Traceback (most recent call last):
+  File "c:\users\taibn1\.conda\envs\tensorflow1\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\BIG CHANCE1\AI Server\crawler_server\tool\tool\pipelines.py", line 26, in process_item
+    print("--------process_item------------, item=", item)
+  File "c:\users\taibn1\.conda\envs\tensorflow1\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u1ec7' in position 20: character maps to <undefined>
+2020-05-13 16:26:04 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-05-13 16:26:05 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 344,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 168235,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 5, 13, 9, 26, 5, 889671),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2020, 5, 13, 9, 26, 4, 111367)}
+2020-05-13 16:26:05 [scrapy.core.engine] INFO: Spider closed (finished)
