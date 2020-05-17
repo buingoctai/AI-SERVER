@@ -1,6 +1,12 @@
 import scrapy
 
-class CrawlerItem(scrapy.Item):
+
+class Article(scrapy.Item):
     # define the fields for your item here like:
-    
-    text = scrapy.Field()
+
+    domain = scrapy.Field()
+    title = scrapy.Field()
+    content = scrapy.Field()
+    topic = scrapy.Field()
+    crawlDate = scrapy.Field()
+    imageUrl = scrapy.Field()

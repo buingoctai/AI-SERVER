@@ -21,13 +21,14 @@ Including another URLconf
 # ]
 
 from django.conf import settings
-from django.conf.urls import url,static
+from django.conf.urls import url, static
 from django.views.generic import TemplateView
 from crawler import views
 
 urlpatterns = [
     url(r'^$', TemplateView.as_view(template_name='index.html'), name='home'),
     url(r'^api/crawl/', views.crawl, name='crawl'),
+    url(r'^api/getCrawledData/', views.getCrawledData, name='getCrawledData'),
 ]
 
 # This is required for static files while in development mode. (DEBUG=TRUE)

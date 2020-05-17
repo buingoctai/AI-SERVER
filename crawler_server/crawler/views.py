@@ -32,7 +32,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from scrapyd_api import ScrapydAPI
-from crawler.models import ScrapyItem
+from crawler.models import ScrapyItem, Article
 
 # connect scrapyd service
 scrapyd = ScrapydAPI('http://localhost:6800')
@@ -113,3 +113,10 @@ def crawl(request):
                 return JsonResponse({'error': str(e)})
         else:
             return JsonResponse({'status': status})
+
+
+@api_view(["POST", "GET"])
+@parser_classes([JSONParser])
+def getCrawledData(request):
+    item = Article.objects.get()
+    return JsonResponse({'data': item.to_dict['content']})
